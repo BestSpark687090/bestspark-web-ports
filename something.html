@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- GOOFY AHH PORT OF SOMETHING BY BestSpark687090 -- https://bestspark.org -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Something</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #cccccc;
+      color: #808080;
+      font-family: 'Liberation Sans', Arial, sans-serif;
+      font-size: 2rem;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+      cursor: none;
+    }
+
+    #timer {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .something { color: #000000; }
+    .nothing   { color: #ffffff; }
+  </style>
+</head>
+<body>
+  <div id="timer"></div>
+
+  <script>
+    const el = document.getElementById('timer');
+
+    const SOMETHING = '<span class="something">Something</span>';
+    const NOTHING   = '<span class="nothing">Nothing</span>';
+
+    const INACTIVITY_LIMIT = 1.0;
+
+    let state           = 'NotStarted';
+    let activeTime      = 0;
+    let stateChangeTime = 0;
+    let lastInputTime   = 0;
+    let lastTime        = null;
+    let inputFlag       = false;
+
+    function fmt(t) {
+      t = Math.floor(t);
+      const d = Math.floor(t / 86400); t %= 86400;
+      const h = Math.floor(t / 3600);  t %= 3600;
+      const m = Math.floor(t / 60);    t %= 60;
+      const s = t;
+      let out = '';
+      if (d) out += d + (d === 1 ? ' day'    : ' days')    + ', ';
+      if (h) out += h + (h === 1 ? ' hour'   : ' hours')   + ', ';
+      if (m) out += m + (m === 1 ? ' minute' : ' minutes') + ', ';
+      out += s + (s === 1 ? ' second' : ' seconds');
+      return out;
+    }
+
+    function setUI() {
+      if (state === 'NotStarted') {
+        el.innerHTML = 'Press any key to start doing ' + SOMETHING + '<br>';
+      } else if (state === 'InProgress') {
+        el.innerHTML = 'You have been doing ' + SOMETHING + ' for<br>' + fmt(activeTime) + '<br>';
+      } else {
+        el.innerHTML = 'You did ' + NOTHING + ', you lost<br>&nbsp;You did ' + SOMETHING + ' for ' + fmt(activeTime);
+      }
+    }
+
+    function reset() {
+      state           = 'NotStarted';
+      activeTime      = 0;
+      stateChangeTime = performance.now() / 1000;
+      inputFlag       = false;
+      setUI();
+    }
+
+    function loop(ts) {
+      const now = ts / 1000;
+      const dt  = lastTime !== null ? now - lastTime : 0;
+      lastTime  = now;
+
+      if (state === 'NotStarted') {
+        if (inputFlag) {
+          inputFlag       = false;
+          state           = 'InProgress';
+          stateChangeTime = now;
+          lastInputTime   = now;
+          setUI();
+        }
+      } else if (state === 'InProgress') {
+        if (inputFlag) {
+          inputFlag     = false;
+          lastInputTime = now;
+        }
+        activeTime += dt;
+        setUI();
+        if (now - stateChangeTime >= 1 && now - lastInputTime >= INACTIVITY_LIMIT) {
+          stateChangeTime = now;
+          state           = 'GameOver';
+          setUI();
+        }
+      } else {
+        if (now - stateChangeTime >= 1 && inputFlag) {
+          reset();
+        }
+      }
+
+      requestAnimationFrame(loop);
+    }
+
+    function onKeyInput(e) {
+      e.preventDefault();
+      inputFlag = true;
+    }
+
+    function onMoveInput(e) {
+      if (state === 'InProgress') inputFlag = true;
+    }
+
+    document.addEventListener('keydown',    onKeyInput);
+    document.addEventListener('mousedown',  onKeyInput);
+    document.addEventListener('mousemove',  onMoveInput);
+    document.addEventListener('touchstart', onKeyInput, { passive: false });
+    document.addEventListener('touchmove',  onMoveInput, { passive: false });
+    document.addEventListener('devicemotion', e => {
+      const a = e.accelerationIncludingGravity;
+      if (a && (a.x || a.y || a.z)) onInput(e);
+    });
+
+    setUI();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>
