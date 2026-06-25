@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madness</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { background: #000; width: 100%; height: 100%; overflow: hidden; }
+  </style>
+</head>
+<body>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {};
+  </script>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2025.6.15"></script>
+  <div id="container"></div>
+  <script>
+    window.addEventListener("load", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      player.style.width = "100vw";
+      player.style.height = "100vh";
+      document.getElementById("container").appendChild(player);
+      player.load("Madness Accelerant.swf");
+    });
+  </script>
+</body>
+</html>
