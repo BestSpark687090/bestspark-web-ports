@@ -11,5 +11,7 @@
 {"name": "Madness Accelerant", "location":"madness/madness.html","image": "madness/icon.png"},
 {"name": "Casual Crusade", "location": "casual-crusade/index.html", "image": "casual-crusade/icon.gif"},
 {"name": "While 1", "location": "while-1/runner.html", "image": "while-1/icon.png"},
-{"name": "Cat Surviors", "location": "cat-survivors/index.html", "image": "cat-survivors/icon.png"}
+{"name": "Cat Surviors", "location": "cat-survivors/index.html", "image": "cat-survivors/icon.png"},
+{"name": "Windowframe", "location": "windowframe/Windowframe.html", "image": "windowframe/Windowframe.icon.png"},
+{"name": "Pause To Play", "location": "pause-to-play/index.html", "image": "pause-to-play/icon.png"}
 ]
