@@ -13,5 +13,6 @@
 {"name": "While 1", "location": "while-1/runner.html", "image": "while-1/icon.png"},
 {"name": "Cat Surviors", "location": "cat-survivors/index.html", "image": "cat-survivors/icon.png"},
 {"name": "Windowframe", "location": "windowframe/Windowframe.html", "image": "windowframe/Windowframe.icon.png"},
-{"name": "Pause To Play", "location": "pause-to-play/index.html", "image": "pause-to-play/icon.png"}
+{"name": "Pause To Play", "location": "pause-to-play/index.html", "image": "pause-to-play/icon.png"},
+{"name": "Aww Biscuits", "location": "aww-biscuits/AwwBiscuits.html", "image":"aww-biscuits/AwwBiscuits.icon.png"}
 ]
