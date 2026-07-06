@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<strings>
+
+	<!-- Loading. Also modifies size of loading percentage number shown. -->
+	<string id="loading" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Loading ]]></string> 
+	<string id="percentage" fontScale="1" offsetX="0" offsetY="0"><![CDATA[0%]]></string> 
+	
+	
+	<!-- Title -->
+	<string id="title" fontScale="2" offsetX="0" offsetY="0"><![CDATA[SpongeBob SquarePants: Run]]></string> 
+	
+	<!-- For Flash -->
+	<string id="click_anywhere" fontScale="1" offsetX="0" offsetY="0"><![CDATA[CLICK ANYWHERE TO PLAY]]></string>
+	<!-- For HTML5 -->
+	<string id="tap_anywhere" fontScale="1" offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
+	
+	<!--For Flash-->
+	<string id="click_again" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[CLICK ANYWHERE TO PLAY AGAIN]]></string>
+	<!-- For HTML5 -->
+	<string id="tap_again" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[TAP ANYWHERE TO PLAY AGAIN]]></string>
+	
+	<string id="skip" fontScale="1" offsetX="0" offsetY="0"><![CDATA[SKIP]]></string>
+	
+	<string id="quit_confirm" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="locked" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Get more pickles to unlock stage!]]></string>
+	<string id="coming_soon" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Come back soon!]]></string>
+	<string id="coming_soon_overlay" fontScale="1.5" offsetX="0" offsetY="0"><![CDATA[Coming Soon!]]></string>
+	<string id="stage_cleared" fontScale="0.8" offsetX="0" offsetY="0"><![CDATA[Stage Cleared]]></string>
+	<string id="stage_already_cleared" fontScale="0.8" offsetX="0" offsetY="0"><![CDATA[Stage Already Cleared]]></string>
+	<string id="paused" fontScale="0.8" offsetX="0" offsetY="0"><![CDATA[Paused]]></string>
+	<string id="stage_unlocked" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Unlocked]]></string>
+	<string id="pickle_unlocked" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Pickle Unlocked!]]></string>
+	<string id="try_again" fontScale="1" offsetX="0" offsetY="0"><![CDATA[Try Again?]]></string>
+	<string id="stage_failed" fontScale="0.8" offsetX="0" offsetY="0"><![CDATA[Not Enough Pickles]]></string>
+	<string id="get_pickle" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Get all 5 golden pickles to unlock the Plankton boss level]]></string>
+	
+	<string id="defeated" fontScale="0.8" offsetX="0" offsetY="0"><![CDATA[DEFEATED]]></string>
+	<string id="first_pickle" fontScale="1" offsetX="0" offsetY="0"><![CDATA[Golden Pickle Unlocked]]></string>
+	
+	<!-- How To Play -->
+	<string id="htp_header" fontScale="1" offsetX="0" offsetY="0"><![CDATA[How To Play]]></string>
+	<string id="htp_p1_a" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[SpongeBob automatically runs forward.]]></string>
+	<string id="htp_p1_b" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Tap anywhere on the screen to jump.]]></string>
+	<string id="htp_p1_b_desktop" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Press spacebar to jump.]]></string>
+	<string id="htp_p2_a" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Collect pickles to unlock the next stage of 
+	each location.]]></string>
+	<string id="htp_p2_b" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Each stage requires a minimum number of pickles.]]></string>
+	<string id="htp_p3_a" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Stomp on enemies.]]></string>
+	<string id="htp_p3_b" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Getting hit knocks SpongeBob out unless he has pickles.]]></string>
+	<string id="htp_p4" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Find power-ups.]]></string>
+	
+	<!-- Achievements -->
+	<string id="ach_header" fontScale="1" offsetX="0" offsetY="0"><![CDATA[Achievements]]></string>
+	
+	<string id="ach_title_0" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Bot Stomper]]></string>
+	<string id="ach_desc_0" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Knock down an enemy]]></string>
+	
+	<string id="ach_title_1" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Premium Pickle]]></string>
+	<string id="ach_desc_1" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Get a gold pickle]]></string>
+	
+	<string id="ach_title_2" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Split Pants]]></string>
+	<string id="ach_desc_2" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Split into two]]></string>
+	
+	<string id="ach_title_3" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Fiery Fist O' Pain]]></string>
+	<string id="ach_desc_3" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Unlock the 2nd level of Glove Universe]]></string>
+	
+	<string id="ach_title_4" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Krusty Krab Hero]]></string>
+	<string id="ach_desc_4" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Defeat Boss Plankton]]></string>
+	
+	<string id="ach_title_5" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 5]]></string>
+	<string id="ach_desc_5" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 5]]></string>
+	
+	<string id="ach_title_6" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 6]]></string>
+	<string id="ach_desc_6" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 6]]></string>
+	
+	<string id="ach_title_7" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 7]]></string>
+	<string id="ach_desc_7" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 7]]></string>
+	
+	<string id="ach_title_8" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 8]]></string>
+	<string id="ach_desc_8" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 8]]></string>
+	
+	<string id="ach_title_9" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 9]]></string>
+	<string id="ach_desc_9" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 9]]></string>
+	
+	<string id="ach_title_10" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 10]]></string>
+	<string id="ach_desc_10" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 10]]></string>
+	
+	<string id="ach_title_11" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 11]]></string>
+	<string id="ach_desc_11" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 11]]></string>
+	
+	<string id="ach_title_12" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 12]]></string>
+	<string id="ach_desc_12" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 12]]></string>
+	
+	<string id="ach_title_13" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 13]]></string>
+	<string id="ach_desc_13" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 13]]></string>
+	
+	<string id="ach_title_14" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 14]]></string>
+	<string id="ach_desc_14" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 14]]></string>
+	
+	<string id="ach_title_15" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 15]]></string>
+	<string id="ach_desc_15" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 15]]></string>
+	
+	<string id="ach_title_16" fontScale="0.7" offsetX="0" offsetY="0"><![CDATA[Title 16]]></string>
+	<string id="ach_desc_16" fontScale="0.5" offsetX="0" offsetY="0"><![CDATA[Description 16]]></string>
+	
+	<string id="congratulations" fontScale="1" offsetX="0" offsetY="0"><![CDATA[Congratulations!]]></string>
+	
+	<string id="yousavedkrustykrabs" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[You saved the Krusty Krab!]]></string>
+	
+	<string id="tunein" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[TUNE IN TO ]]></string>
+	<string id="formore" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[ FOR MORE ]]></string>
+
+	
+	<string id="avoid" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Avoid]]></string>
+	<string id="stomp" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Jump on]]></string>
+	
+	<string id="boss_locked" fontScale="0.75" offsetX="0" offsetY="0"><![CDATA[Get all 5 golden pickles to unlock stage!]]></string>
+		
+</strings>

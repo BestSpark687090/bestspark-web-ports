@@ -1,0 +1,11 @@
+--2026-06-30 10:04:11--  https://assets.nick.com/uri/mgid:arc:imageassetref:ws.kids.com:21d517bf-8750-4915-bb5f-5c75e86e4b1d?quality=0.7
+Resolving assets.nick.com (assets.nick.com)... 2600:1405:1000:4::17d6:16aa, 2600:1405:1000:4::17d6:16ab, 23.46.228.6, ...
+Connecting to assets.nick.com (assets.nick.com)|2600:1405:1000:4::17d6:16aa|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 173647 (170K) [image/jpeg]
+Saving to: ‘mgid:arc:imageassetref:ws.kids.com:21d517bf-8750-4915-bb5f-5c75e86e4b1d?quality=0.7’
+
+               mgid:arc:image   0%[                                                  ]       0  --.-KB/s               mgid:arc:imageassetref:ws.kid 100%[=================================================>] 169.58K   899KB/s    in 0.2s    
+
+2026-06-30 10:04:12 (899 KB/s) - ‘mgid:arc:imageassetref:ws.kids.com:21d517bf-8750-4915-bb5f-5c75e86e4b1d?quality=0.7’ saved [173647/173647]
+

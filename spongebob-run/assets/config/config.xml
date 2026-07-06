@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+
+	<!-- LOCALIZATION --> 
+	<!-- cn, en, la, ru, sc -->
+	<localization>
+		<region>en</region>
+	</localization> 
+
+
+	<!-- Piracy Control Url--> 
+	<piracycontrol>http://www.nick.com/games/spongebob-squarepants-boogiebob-dancepants.html</piracycontrol>
+	
+	<!-- Determines Piracy Control feature is activated or not. A value of 'true' activates it.-->
+	<piratecontrolactivated>true</piratecontrolactivated>
+	
+	<deltaDNAMode>live</deltaDNAMode>
+	<deltaDNAURL>http://www.nick.com/games/spongebob-squarepants-boogiebob-dancepants.html</deltaDNAURL>
+	
+	
+	<!-- 
+		ENABLE  = 1
+		DISABLE = 0
+	-->
+	
+	<!-- CANADA TRACKING -->
+	<Canadatracking>0</Canadatracking>
+	
+	<!-- IN-GAME VOICE OVERS -->
+	<gameVO>1</gameVO>
+
+	<achievement>1</achievement>
+
+</config>

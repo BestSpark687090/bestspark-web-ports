@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpongeBob Run!</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background: #000;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+#embedtarget {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    touch-action: none;
+}
+</style>
+</head>
+<body>
+
+<div id="embedtarget">
+    <canvas
+        id="embedtarget-canvas"
+        aria-label="game SpongeBob Run"
+        tabindex="0"
+        moz-opaque=""
+        width="1200"
+        height="700"
+        style="outline-style:none;-webkit-tap-highlight-color:transparent;transform-origin:left top;position:absolute;"
+    ></canvas>
+</div>
+
+<script>
+(function () {
+
+    // ── 1. Block the domain-lock redirect ────────────────────────────────
+    //
+    // main-html.js tries to assign nick_sdk_client.wfaei09ne to a function
+    // that eventually redirects to nick.com after 30 s. We make that property
+    // non-writable so the assignment silently fails in non-strict mode, but
+    // the IIFE still runs harmlessly (its real g/h/k functions stay trapped
+    // in the closure and are never reachable).
+
+    window.nick_sdk_client = {};
+    Object.defineProperty(window.nick_sdk_client, 'wfaei09ne', {
+        configurable: false,
+        writable:     false,
+        value:        { vjeiwo231: function () {} }
+    });
+
+    // getDomains is set inside the IIFE then called by NickDomain.json.
+    // Locking it to a no-op keeps the internal domain list empty, which
+    // means even if the check loop somehow ran it would find nothing to
+    // compare against (it never runs anyway, but belt-and-suspenders).
+    Object.defineProperty(window, 'getDomains', {
+        configurable: false,
+        writable:     false,
+        value:        function () {}
+    });
+
+    // ── 2. Required SDK stubs ────────────────────────────────────────────
+    window.nsdk_expose = function () {};
+
+    // ── 3. jsembed ───────────────────────────────────────────────────────
+    //
+    // The game engine calls jsembed.baseUrl() inside Wb.fromAssets() to
+    // build the full URL for every asset pack. Assets are served from the
+    // local ./assets/ directory (downloaded from Nick's CDN).
+
+    var BASE = './';
+
+    window.jsembed = {
+        baseUrl:            function () { return BASE; },
+        params:             function () { return { api: 'flambe', base: BASE, scaletype: 'filltop', autoscale: 'false' }; },
+        isBaseCrossdomain:  function () { return false; },
+        canvasWidth:        function () { return 1200; },
+        canvasHeight:       function () { return 700; },
+        canvasScale:        function () { return Math.min(window.innerWidth / 1200, window.innerHeight / 700); },
+        scaledWidth:        function () { return Math.round(1200 * jsembed.canvasScale()); },
+        scaledHeight:       function () { return Math.round(700  * jsembed.canvasScale()); },
+        disableAutoScaling: function () {},
+        embedDiv:           function () { return document.getElementById('embedtarget'); },
+        embedDivId:         function () { return 'embedtarget'; },
+        exists:             function () { return true; },
+        attr:               function () { return null; },
+        addStyle:           function () {},
+        allowPortrait:      function () { return false; },
+        isPortrait:         function () { return false; },
+        controlPortrait:    function () { return false; },
+        contentOffsetX:     function () { return 0; },
+        contentOffsetY:     function () { return 0; },
+        scaleType:          function () { return 'filltop'; },
+        setCanvasScaleMax:  function () {},
+        setCanvasOffset:    function () {},
+        onDomLoad:          function (fn) { if (fn) fn(); },
+        embed:              function () {}
+    };
+
+    // ── 4. window.flambe.canvas ──────────────────────────────────────────
+    //
+    // The 2DKit HTML5 platform (Xb.prototype.init) does:
+    //   b = window.flambe.canvas
+    //   b.setAttribute("tabindex", "0")  // crashes if null
+    //
+    // When the game is launched normally, kit.embed() creates the canvas
+    // and sets window.flambe.canvas before running the game JS. Since we
+    // load main-html.js directly as a script tag instead, we must set it
+    // ourselves before the script executes.
+
+    window.flambe = { canvas: document.getElementById('embedtarget-canvas') };
+
+    // ── 5. Fullscreen scaling ────────────────────────────────────────────
+    var GAME_W = 1200, GAME_H = 700;
+    function resizeCanvas() {
+        var s = Math.min(window.innerWidth / GAME_W, window.innerHeight / GAME_H);
+        var ox = (window.innerWidth  - GAME_W * s) / 2;
+        var oy = (window.innerHeight - GAME_H * s) / 2;
+        var canvas = document.getElementById('embedtarget-canvas');
+        canvas.style.position        = 'fixed';
+        canvas.style.left            = '0';
+        canvas.style.top             = '0';
+        canvas.style.transformOrigin = '0 0';
+        //canvas.style.transform       = 'translate(' + ox + 'px,' + oy + 'px) scale(' + s + ')';
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+}());
+</script>
+
+<!-- ─────────────────────────────────────────────────────────────────────────
+     The actual game — local copy of Nick's compiled Haxe/2DKit binary.
+     Assets are served from ./assets/ (fully offline).
+     ───────────────────────────────────────────────────────────────────── -->
+<script src="./main-html.js"></script>
+
+</body>
+</html>
