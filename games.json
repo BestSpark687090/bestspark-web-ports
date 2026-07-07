@@ -19,5 +19,6 @@
 {"name": "Spongebob Run", "location": "spongebob-run/spongebob-run.html", "image": "spongebob-run/icon.png"},
 {"name": "Scritchy Scratchy (DEMO)", "location": "scritchy-scratchy/index.html", "image": "scritchy-scratchy/ss.png"},
 {"name": "Nothing (ACTUAL PORT)", "location":"actual-nothing/index.html", "image":"nothing/logo.jpg"},
-{"name": "Something (ACTUAL PORT)", "location": "actual-something/index.html", "image":"something/logo.jpg"}
+{"name": "Something (ACTUAL PORT)", "location": "actual-something/index.html", "image":"something/logo.jpg"},
+{"name": "Click the Button Demo", "location":"click-the-button/ClickTheButton.html", "image": "click-the-button/ClickTheButton.icon.png"}
 ]
