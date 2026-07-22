@@ -21,5 +21,6 @@
 {"name": "Nothing (ACTUAL PORT)", "location":"actual-nothing/index.html", "image":"nothing/logo.jpg"},
 {"name": "Something (ACTUAL PORT)", "location": "actual-something/index.html", "image":"something/logo.jpg"},
 {"name": "Click the Button Demo", "location":"click-the-button/ClickTheButton.html", "image": "click-the-button/ClickTheButton.icon.png"},
-{"name": "click to ten", "location":"click-to-ten/index.html", "image": "click-to-ten/icon.jpg"}
+{"name": "click to ten", "location":"click-to-ten/index.html", "image": "click-to-ten/icon.jpg"},
+{"name": "Hydrogen", "location": "hydrogen/index.html", "image": "hydrogen/icon.webp"}
 ]
