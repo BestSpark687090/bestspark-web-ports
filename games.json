@@ -23,5 +23,6 @@
 {"name": "Click the Button Demo", "location":"click-the-button/ClickTheButton.html", "image": "click-the-button/ClickTheButton.icon.png"},
 {"name": "click to ten", "location":"click-to-ten/index.html", "image": "click-to-ten/icon.jpg"},
 {"name": "Hydrogen", "location": "hydrogen/index.html", "image": "hydrogen/icon.webp"},
-{"name": "15%", "location":"15percent/index.html","image":"15percent/index.icon.png"}
+{"name": "15%", "location":"15percent/index.html","image":"15percent/index.icon.png"},
+{"name": "Space Flight Simulator", "location":"sfs/index.html", "image":"sfs/icon.png"}
 ]
