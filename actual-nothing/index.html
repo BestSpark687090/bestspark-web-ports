@@ -55,14 +55,28 @@
         }
         updateBannerVisibility();
       }
-
-      var buildUrl = "Build";
+      // !! ai for singlefile !!
+      // Only force an absolute base when actually stuck inside a srcdoc iframe
+      // (location.href is literally "about:srcdoc" there - Unity's loader resolves
+      // config.dataUrl/etc against location.href internally via `new URL(url,
+      // location.href)`, which throws "Invalid URL" for a relative url since about:
+      // isn't a scheme that supports relative resolution; an already-absolute url
+      // sidesteps that since base is ignored once the first argument already parses).
+      // This site is mirrored across a bunch of domains besides bestspark.org, so
+      // hardcoding it unconditionally would break every mirror's own copy - keep the
+      // original relative paths for normal (non-proxied) loads, which already
+      // self-reference whichever domain actually served this page.
+      var gameBaseUrl =
+        location.href === "about:srcdoc"
+          ? "https://bestspark.org/games/ports/actual-nothing/"
+          : "";
+      var buildUrl = gameBaseUrl + "Build";
       var loaderUrl = buildUrl + "/EXPORT.loader.js";
       var config = {
         dataUrl: buildUrl + "/EXPORT.data",
         frameworkUrl: buildUrl + "/EXPORT.framework.js",
         codeUrl: buildUrl + "/EXPORT.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: gameBaseUrl + "StreamingAssets",
         companyName: "Pixelatto",
         productName: "Nothing",
         productVersion: "1.0",
