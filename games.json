@@ -25,5 +25,6 @@
 {"name": "Hydrogen", "location": "hydrogen/index.html", "image": "hydrogen/icon.webp"},
 {"name": "15%", "location":"15percent/index.html","image":"15percent/index.icon.png"},
 {"name": "Space Flight Simulator", "location":"sfs/index.html", "image":"sfs/icon.png"},
-{"name": "CursorDrifter", "location": "cursordrifter/index.html", "image": "cursordrifter/index.icon.png"}
+{"name": "CursorDrifter", "location": "cursordrifter/index.html", "image": "cursordrifter/index.icon.png"},
+{"name": "BitDrop", "location": "bitdrop/index.html", "image": "bitdrop/banner.png"}
 ]
