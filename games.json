@@ -29,5 +29,7 @@
 {"name": "BitDrop", "location": "bitdrop/index.html", "image": "bitdrop/banner.png"},
 {"name": "TuxFishing", "location": "tuxfishing/tuxfishing.html", "image": "tuxfishing/logo.avif"},
 {"name": "Femboy Clicker", "location": "femboy-clicker/index.html", "image": "femboy-clicker/icon.png"},
-{"name": "Mass Flux", "location": "mass-flux/runner.html", "image": "mass-flux/icon.png"}
+{"name": "Mass Flux", "location": "mass-flux/runner.html", "image": "mass-flux/icon.png"},
+{"name": "FNF Hard Smile", "location": "hard-smile/index.html", "image": "hard-smile/assets/images/HardSmile.png"},
+{"name": "Cata-Bomb", "location": "catabomb/catabomb.html", "image": "catabomb/catabomb.png"}
 ]

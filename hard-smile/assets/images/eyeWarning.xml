@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eyeWarning.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eye0000" x="5" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0001" x="1157" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0002" x="5" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0003" x="1157" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0004" x="2309" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0005" x="3461" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0006" x="4613" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0007" x="5765" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0008" x="6917" y="5" width="1147" height="1426"/>
+	<SubTexture name="eye0009" x="5" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0010" x="1157" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0011" x="2309" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0012" x="3461" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0013" x="4613" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0014" x="5765" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0015" x="6917" y="1436" width="1147" height="1426"/>
+	<SubTexture name="eye0016" x="5" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0017" x="1157" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0018" x="2309" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0019" x="3461" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0020" x="4613" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0021" x="5765" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0022" x="6917" y="2867" width="1147" height="1426"/>
+	<SubTexture name="eye0023" x="5" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0024" x="1157" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0025" x="2309" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0026" x="3461" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0027" x="4613" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0028" x="5765" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0029" x="6917" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0030" x="5" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0031" x="1157" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0032" x="2309" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0033" x="3461" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0034" x="4613" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0035" x="5765" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0036" x="5765" y="4298" width="1147" height="1426"/>
+	<SubTexture name="eye0037" x="6917" y="5729" width="1147" height="1426"/>
+	<SubTexture name="eye0046" x="2309" y="5" width="1147" height="1426"/>
+</TextureAtlas>
