@@ -1,0 +1,457 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_CityParkSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6.43000031
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7.93000031
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 9.43
+        }
+      },
+      {
+        "AssetGUID": "city_longOverUnder_roadworks.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.23
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 14.8899994
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 16.39
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 17.89
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 19.39
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.89
+        }
+      },
+      {
+        "AssetGUID": "CityArch_Right.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "CityArchAddon.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "MissionItemSpawnPoint.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 34.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 50.0
+        }
+      },
+      {
+        "AssetGUID": "city_ramp5_truckRamp01.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 57.2
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 59.06
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 60.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 62.13
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 63.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 64.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 66.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 67.06
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 67.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 69.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 70.13
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 70.53
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 72.03
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 73.53
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 75.03
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 75.06
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.9,
+          "z": 76.53
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 86.74
+        },
+        "MoveSpeed": 20.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_double4_truck01.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 90.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 94.06
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 97.02
+        }
+      },
+      {
+        "AssetGUID": "city_staticDouble1_roadworks02.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 97.8
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 98.31
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 98.52
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 100.02
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 101.52
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 102.06
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 103.02
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 104.47
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 105.97
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 106.31
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 107.47
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 108.92
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 110.06
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 110.42
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 111.92
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 113.42
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 114.92
+        }
+      }
+    ],
+    "Sucessors": [
+      "Tom1_24_221_SEQ",
+      "Tom1_24_222_SEQ"
+    ]
+  }
+}

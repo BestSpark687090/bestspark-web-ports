@@ -1,0 +1,294 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_SideArchSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 2.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 3.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 5.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 6.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 8.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityResidentalSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.67
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle1_box.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 11.88
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.67
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 14.67
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 16.67
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle1_box.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 18.87
+        }
+      },
+      {
+        "AssetGUID": "CityArchAddon.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "CityArch_Middle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "GooglePortraitUnit_Wall.prefab",
+        "Position": {
+          "x": 1.583,
+          "y": 2.0,
+          "z": 20.1
+        }
+      },
+      {
+        "AssetGUID": "MissionItemSpawnPoint.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 25.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityResidentalSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "city_ramp5_truckRamp01.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 43.73
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 44.48
+        },
+        "MoveSpeed": 10.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_single2_car03.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "city_double8_bus02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 48.52
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 48.52
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 50.02
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 51.52
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 53.02
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 54.52
+        }
+      },
+      {
+        "AssetGUID": "Tom1_SideArchSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 60.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.94,
+          "z": 60.09
+        }
+      },
+      {
+        "AssetGUID": "city_over_roadworks.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 60.51
+        }
+      },
+      {
+        "AssetGUID": "city_over_roadworks.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 60.51
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.79,
+          "z": 61.61
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.43,
+          "z": 63.12
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.88,
+          "z": 64.61
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

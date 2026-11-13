@@ -1,0 +1,386 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_ParkRiverBridgeSetStart_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.46
+        },
+        "MoveSpeed": 15.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 8.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "city_ramp5_truckRamp01.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 13.81
+        }
+      },
+      {
+        "AssetGUID": "city_ramp5_truckRamp01.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 17.96
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 18.72
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 20.71
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 22.21
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 22.86
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 23.71
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 25.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 26.5
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 26.72
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 28.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 29.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_ParkRiverBridgeSetMiddle_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.02
+        },
+        "MoveSpeed": 10.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 8.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 31.0
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 37.22
+        },
+        "MoveSpeed": 2.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_double4_truck01.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "city_double8_truckTrailor02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 4.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 8.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 9.459999
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 10.9199982
+            }
+          },
+          {
+            "AssetGUID": "city_double8_truckTrailor02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 12.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 12.3799973
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 13.8399963
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 15.2999954
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.9,
+              "z": 16.7599945
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Tom1_ParkRiverBridgeSetStart_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "GooglePortraitUnit_Wall.prefab",
+        "Position": {
+          "x": -2.716,
+          "y": 3.54,
+          "z": 59.194
+        }
+      },
+      {
+        "AssetGUID": "DriveInObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 63.06
+        },
+        "MoveSpeed": 12.0,
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "MoveFromSide": false,
+        "SideObstacleTriggerDistance": 0.0,
+        "CollidableProxy": [
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "city_double8_bus02.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 7.999996
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "city_ramp5_truckRamp01.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 66.98
+        }
+      },
+      {
+        "AssetGUID": "Tom1_ParkRiverBridgeSetMiddle_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 70.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 71.87
+        }
+      },
+      {
+        "AssetGUID": "MissionItemSpawnPoint.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 77.55
+        }
+      }
+    ],
+    "Sucessors": [
+      "Tom1_16_131_SEQ",
+      "Tom1_16_132_SEQ"
+    ]
+  }
+}

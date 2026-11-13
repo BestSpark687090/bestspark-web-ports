@@ -1,0 +1,19 @@
+{
+  "name": "VanStage",
+  "speed": 14.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 30,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Ben1_VanSegment_01",
+    "Ben1_VanSegment_02",
+    "Ben1_VanSegment_03",
+    "Ben1_VanSegment_04"
+  ],
+  "LevelBlockItems": [
+    "Ben1_VanSegment_01",
+    "Ben1_VanSegment_02",
+    "Ben1_VanSegment_03",
+    "Ben1_VanSegment_04"
+  ]
+}

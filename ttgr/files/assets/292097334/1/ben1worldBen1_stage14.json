@@ -1,0 +1,47 @@
+{
+  "name": "WorldStage",
+  "speed": 14.0,
+  "NumberOfLevels": 6,
+  "LevelBlockLength": 70,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Ben1_14_001",
+    "Ben1_14_002",
+    "Ben1_14_003",
+    "Ben1_14_004",
+    "Ben1_14_005",
+    "Ben1_14_006",
+    "Ben1_14_007",
+    "Ben1_14_008",
+    "Ben1_14_009",
+    "Ben1_14_010",
+    "Ben1_14_011",
+    "Ben1_14_012",
+    "Ben1_14_013",
+    "Ben1_14_014",
+    "Ben1_14_015"
+  ],
+  "LevelBlockItems": [
+    "Ben1_14_001",
+    "Ben1_14_002",
+    "Ben1_14_003",
+    "Ben1_14_004",
+    "Ben1_14_005",
+    "Ben1_14_006",
+    "Ben1_14_007",
+    "Ben1_14_008",
+    "Ben1_14_009",
+    "Ben1_14_010",
+    "Ben1_14_011",
+    "Ben1_14_012",
+    "Ben1_14_013",
+    "Ben1_14_014",
+    "Ben1_14_015"
+  ],
+  "SuccessorsLevelBlockItems": [
+    "Ben1_14_101_SEQ",
+    "Ben1_14_102_SEQ",
+    "Ben1_14_151_SEQ",
+    "Ben1_14_152_SEQ"
+  ]
+}

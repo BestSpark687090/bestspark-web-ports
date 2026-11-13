@@ -1,0 +1,59 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_CityParkSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "Checkpoint.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 45.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 50.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_CityParkSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 80.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

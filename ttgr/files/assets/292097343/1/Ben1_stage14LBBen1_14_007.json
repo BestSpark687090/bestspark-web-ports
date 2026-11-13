@@ -1,0 +1,521 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "PersonalizationFactor": -1.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Ben1_ArchiSet_01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 1.79
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 10.0,
+          "z": 20.0
+        },
+        "TriggerDistance": -3.47221184,
+        "Duration": 0.5,
+        "EndPosition": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 20.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_staticSingle1_stoneSlab01a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 3.29
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 4.79
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 6.3
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 7.8
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 10.0,
+          "z": 32.0
+        },
+        "TriggerDistance": 7.9156127,
+        "Duration": 0.3,
+        "EndPosition": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 32.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_ramp5_stoneSlab04a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 9.3
+        }
+      },
+      {
+        "AssetGUID": "ben1_ramp5_stoneSlab04a.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 10.31
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 9.999996,
+          "z": 13.0
+        },
+        "TriggerDistance": -11.7635841,
+        "Duration": 0.5,
+        "EndPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 13.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_staticSingle1_stoneSlab01a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 10.0,
+          "z": 37.5
+        },
+        "TriggerDistance": 12.0791092,
+        "Duration": 0.5,
+        "EndPosition": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 37.5
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_double8_stoneSlab03a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 1.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 2.459999
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 3.91999817
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 5.37999725
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "ben1_double8_stoneSlab03a.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 15.31
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 10.0,
+          "z": 38.0
+        },
+        "TriggerDistance": 16.07911,
+        "Duration": 0.3,
+        "EndPosition": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 38.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_double4_stoneSlab02a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 17.25
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 18.75
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.25
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 10.0,
+          "z": 50.0
+        },
+        "TriggerDistance": 21.08068,
+        "Duration": 0.5,
+        "EndPosition": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 50.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_double8_stoneSlab03a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "MissionItemSpawnPoint.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 21.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 21.75
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 23.25
+        }
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 51.0
+        },
+        "TriggerDistance": 24.9424553,
+        "Duration": 0.3,
+        "EndPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 51.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_double8_stoneSlab03a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 1.83741
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 3.297409
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 4.757408
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 6.217407
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 7.67740631
+            }
+          },
+          {
+            "AssetGUID": "Pickup_GoldBrick.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 1.89999962,
+              "z": 9.137405
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "DropDownObstacle.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 10.0,
+          "z": 59.0
+        },
+        "TriggerDistance": 29.0441685,
+        "Duration": 0.3,
+        "EndPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 59.0
+        },
+        "CollidableProxy": [
+          {
+            "AssetGUID": "ben1_double4_stoneSlab02a.prefab",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "AssetGUID": "Ben1_ArchiSet_02_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 31.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar03.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 32.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 33.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 34.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 34.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar03.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 35.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 35.5
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 36.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_staticDouble1_pillar02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 37.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.9,
+          "z": 37.0
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle1_box.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 37.21
+        }
+      },
+      {
+        "AssetGUID": "Ben1_ArchiSet_02_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      }
+    ],
+    "Sucessors": [],
+    "Gaps": [
+      [],
+      [],
+      []
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Angela2_CityShopSet01_10_new.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Angela2_CityShopSet02_30_new.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.000001
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 20.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 21.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 22.5
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle_flowerPot.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 29.0
+        }
+      },
+      {
+        "AssetGUID": "RunnerTrigger.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 39.0
+        }
+      }
+    ],
+    "Sucessors": [],
+    "Gaps": [
+      [],
+      [],
+      []
+    ]
+  }
+}

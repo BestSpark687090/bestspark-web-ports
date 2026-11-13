@@ -1,0 +1,19 @@
+{
+  "name": "WorldStage",
+  "speed": 12.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 30,
+  "SelectionMode": 1,
+  "SelectionItems": [
+    "Angela1_TunnelBig_12_01",
+    "Angela1_TunnelBig_12_02",
+    "Angela1_TunnelBig_12_03",
+    "Angela1_TunnelBig_12_04"
+  ],
+  "LevelBlockItems": [
+    "Angela1_TunnelBig_12_01",
+    "Angela1_TunnelBig_12_02",
+    "Angela1_TunnelBig_12_03",
+    "Angela1_TunnelBig_12_04"
+  ]
+}

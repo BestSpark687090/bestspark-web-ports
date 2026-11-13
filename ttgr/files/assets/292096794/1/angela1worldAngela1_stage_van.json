@@ -1,0 +1,19 @@
+{
+  "name": "VanStage",
+  "speed": 12.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 30,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Angela1_VanSegment",
+    "Angela1_VanSegment_02",
+    "Angela1_VanSegment_03",
+    "Angela1_VanSegment_04"
+  ],
+  "LevelBlockItems": [
+    "Angela1_VanSegment",
+    "Angela1_VanSegment_02",
+    "Angela1_VanSegment_03",
+    "Angela1_VanSegment_04"
+  ]
+}

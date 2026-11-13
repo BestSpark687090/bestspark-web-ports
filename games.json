@@ -31,5 +31,13 @@
 {"name": "Femboy Clicker", "location": "femboy-clicker/index.html", "image": "femboy-clicker/icon.png"},
 {"name": "Mass Flux", "location": "mass-flux/runner.html", "image": "mass-flux/icon.png"},
 {"name": "FNF Hard Smile", "location": "hard-smile/index.html", "image": "hard-smile/assets/images/HardSmile.png"},
-{"name": "Cata-Bomb", "location": "catabomb/catabomb.html", "image": "catabomb/catabomb.png"}
+{"name": "Cata-Bomb", "location": "catabomb/catabomb.html", "image": "catabomb/catabomb.png"},
+{"name": "[NEW AND REALLY GOOD] Modded Balatro", "location": "modded-balatro/index.html", "image": "modded-balatro/balala.png"},
+{"name": "Talking Tom Gold Run", "location":"ttgr/index.html", "image": "ttgr/icon.webp"},
+{"name": "Resident Evil 1", "location":"re1/index.html", "image": "re1/icon.webp"},
+{"name": "Super Mario Flash", "location": "smf/index.html", "image": "smf/icon.png"},
+{"name": "Super Mario Flash 2", "location": "smf2/index.html", "image": "smf2/icon.png"},
+{"name": "Super Mario Flash 3", "location": "smf3/index.html", "image": "smf3/icon.png"},
+{"name": "Super Mario Flash 4", "location": "smf4/index.html", "image": "smf4/icon.jpg"},
+{"name": "Two Ball 3D: Dark", "location": "2ball/twoball_index.html", "image": "2ball/2ball.webp"}
 ]

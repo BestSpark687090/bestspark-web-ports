@@ -1,0 +1,48 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Hank1-HighwaySet02_20.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Hank1-HighwaySet01_20.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "CheckpointHank.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 25.0
+        }
+      },
+      {
+        "AssetGUID": "Hank1-HighwaySet02_20.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      }
+    ],
+    "Sucessors": [],
+    "Gaps": [
+      [],
+      [],
+      []
+    ]
+  }
+}

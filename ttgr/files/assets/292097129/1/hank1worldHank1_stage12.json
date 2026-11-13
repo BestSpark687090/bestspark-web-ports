@@ -1,0 +1,51 @@
+{
+  "name": "WorldStage",
+  "speed": 12.0,
+  "NumberOfLevels": 6,
+  "LevelBlockLength": 60,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Hank1_12_001",
+    "Hank1_12_002",
+    "Hank1_12_003",
+    "Hank1_12_004",
+    "Hank1_12_005",
+    "Hank1_12_006",
+    "Hank1_12_007",
+    "Hank1_12_008",
+    "Hank1_12_009",
+    "Hank1_12_010",
+    "Hank1_12_011",
+    "Hank1_12_012",
+    "Hank1_12_013",
+    "Hank1_12_014",
+    "Hank1_12_015"
+  ],
+  "LevelBlockItems": [
+    "Hank1_12_001",
+    "Hank1_12_002",
+    "Hank1_12_003",
+    "Hank1_12_004",
+    "Hank1_12_005",
+    "Hank1_12_006",
+    "Hank1_12_007",
+    "Hank1_12_008",
+    "Hank1_12_009",
+    "Hank1_12_010",
+    "Hank1_12_011",
+    "Hank1_12_012",
+    "Hank1_12_013",
+    "Hank1_12_014",
+    "Hank1_12_015"
+  ],
+  "SuccessorsLevelBlockItems": [
+    "Hank1_12_101_SEQ",
+    "Hank1_12_102_SEQ",
+    "Hank1_12_131_SEQ",
+    "Hank1_12_132_SEQ",
+    "Hank1_12_141_SEQ",
+    "Hank1_12_142_SEQ",
+    "Hank1_12_151_SEQ",
+    "Hank1_12_152_SEQ"
+  ]
+}

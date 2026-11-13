@@ -1,0 +1,107 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet02_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Ball_TargetKicking.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.25,
+          "z": 0.5
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 7.0
+        }
+      },
+      {
+        "AssetGUID": "BallTargetKicking_low.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 19.0
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle_flowerPot.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 27.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_bus01.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 32.0
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car01.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 37.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet02_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle1_box.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 46.0
+        }
+      },
+      {
+        "AssetGUID": "Ball_TargetKicking.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.5,
+          "z": 46.5
+        }
+      },
+      {
+        "AssetGUID": "BallTargetKicking_high.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 64.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

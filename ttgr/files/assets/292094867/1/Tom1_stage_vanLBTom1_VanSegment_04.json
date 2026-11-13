@@ -1,0 +1,92 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "PersonalizationFactor": -1.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_ParkRiverSet02_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 8.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 14.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 18.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 20.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 22.5
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 27.0
+        }
+      },
+      {
+        "AssetGUID": "RunnerTrigger.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 29.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "WorldStage",
+  "speed": 12.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 30,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Hank1_TunnelBig_12_01",
+    "Hank1_TunnelBig_12_04",
+    "Hank1_TunnelBig_12_05"
+  ],
+  "LevelBlockItems": [
+    "Hank1_TunnelBig_12_01",
+    "Hank1_TunnelBig_12_04",
+    "Hank1_TunnelBig_12_05"
+  ]
+}

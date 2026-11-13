@@ -1,0 +1,16 @@
+{
+  "name": "hank1world",
+  "stages": [
+    "Hank1_tunnel_small",
+    "Hank1_stage_van",
+    "Hank1_stage12",
+    "Hank1_stage16",
+    "Hank1_stage24",
+    "Hank1_checkpoint_stage_12",
+    "Hank1_checkpoint_stage_16",
+    "Hank1_checkpoint_stage_24",
+    "Hank1_tunnel_big_12",
+    "Hank1_tunnel_big_16",
+    "Hank1_tunnel_big_24"
+  ]
+}

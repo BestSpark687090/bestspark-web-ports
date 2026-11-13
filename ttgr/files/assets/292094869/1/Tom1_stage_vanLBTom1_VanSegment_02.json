@@ -1,0 +1,100 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "PersonalizationFactor": -1.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_parkRiverSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_parkRiverSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.5
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car03.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 14.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 14.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 16.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_parkRiverSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 22.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 24.0
+        }
+      },
+      {
+        "AssetGUID": "RunnerTrigger.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 29.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

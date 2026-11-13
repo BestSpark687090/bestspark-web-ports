@@ -1,0 +1,839 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "PersonalizationFactor": -1.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Ben1_ArchiSet_02_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 10.0000992
+        },
+        "TriggerDistance": -10.9999008
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 11.0000992
+        },
+        "TriggerDistance": -8.999901
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.0,
+          "z": 11.8700018
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 12.0000992
+        },
+        "TriggerDistance": -6.999901
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 13.0000992
+        },
+        "TriggerDistance": -4.999901
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.0,
+          "z": 13.3700018
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 14.0000992
+        },
+        "TriggerDistance": -2.99990082
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.0,
+          "z": 14.8700018
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 15.0000992
+        },
+        "TriggerDistance": -0.9999008
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 16.0001
+        },
+        "TriggerDistance": 1.00009918
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.0,
+          "z": 16.37
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 17.0001
+        },
+        "TriggerDistance": -8.999901
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 17.0001
+        },
+        "TriggerDistance": 3.00009918
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 1.0,
+          "z": 17.87
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 18.0001
+        },
+        "TriggerDistance": 5.000099
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 19.0001
+        },
+        "TriggerDistance": 7.000099
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 19.0001
+        },
+        "TriggerDistance": -6.999901
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 20.0001
+        },
+        "TriggerDistance": 9.000099
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 21.0001
+        },
+        "TriggerDistance": -4.999901
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 23.0001
+        },
+        "TriggerDistance": -2.99990082
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 25.0001
+        },
+        "TriggerDistance": -0.9999008
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 27.0
+        },
+        "TriggerDistance": 13.0000992
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 27.0001
+        },
+        "TriggerDistance": 1.00009918
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 27.8000984
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 28.0
+        },
+        "TriggerDistance": 14.0000992
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 29.0
+        },
+        "TriggerDistance": 15.0000992
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 29.0001
+        },
+        "TriggerDistance": 3.00009918
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 29.3000984
+        }
+      },
+      {
+        "AssetGUID": "Ben1_ArchiSet_02_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 29.9999065
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.0
+        },
+        "TriggerDistance": 16.0001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 30.8000984
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 31.0
+        },
+        "TriggerDistance": 17.0001
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 31.0001
+        },
+        "TriggerDistance": 5.000099
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 32.0
+        },
+        "TriggerDistance": 18.0001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 32.0701
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 33.0
+        },
+        "TriggerDistance": 19.0001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 33.5701
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 34.0
+        },
+        "TriggerDistance": 20.0001
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 35.0
+        },
+        "TriggerDistance": 21.0001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 35.0701
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 36.0
+        },
+        "TriggerDistance": 22.0001
+      },
+      {
+        "AssetGUID": "MissionItemSpawnPoint.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 36.79
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 37.0
+        },
+        "TriggerDistance": 23.0001
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 38.0001
+        },
+        "TriggerDistance": 24.0001984
+      },
+      {
+        "AssetGUID": "city_staticSingle1_box.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 38.0
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 39.0001
+        },
+        "TriggerDistance": 25.0001984
+      },
+      {
+        "AssetGUID": "ben_piston_1.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 39.0001
+        },
+        "TriggerDistance": 25.0001984
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 39.0001
+        },
+        "TriggerDistance": 12.5000992
+      },
+      {
+        "AssetGUID": "Ben1_ArchiSet_01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 39.99991
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 40.0001
+        },
+        "TriggerDistance": 14.5000992
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 41.0001
+        },
+        "TriggerDistance": 16.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 42.0001
+        },
+        "TriggerDistance": 18.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 43.0001
+        },
+        "TriggerDistance": 20.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 44.0
+        },
+        "TriggerDistance": 16.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 44.0001
+        },
+        "TriggerDistance": 22.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 44.14
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 45.0
+        },
+        "TriggerDistance": 18.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 45.0001
+        },
+        "TriggerDistance": 24.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 45.64
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 46.0
+        },
+        "TriggerDistance": 20.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 46.0001
+        },
+        "TriggerDistance": 26.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 47.0
+        },
+        "TriggerDistance": 22.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 47.0001
+        },
+        "TriggerDistance": 28.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 47.14
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 48.0001
+        },
+        "TriggerDistance": 24.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 48.0001
+        },
+        "TriggerDistance": 30.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 48.64
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 49.0001
+        },
+        "TriggerDistance": 26.5001
+      },
+      {
+        "AssetGUID": "xBoost_50_ALL.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 49.0
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 49.0001
+        },
+        "TriggerDistance": 32.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 50.0001
+        },
+        "TriggerDistance": 26.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 50.0001
+        },
+        "TriggerDistance": 33.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 1.9,
+          "z": 50.14
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 51.0001
+        },
+        "TriggerDistance": 28.5001
+      },
+      {
+        "AssetGUID": "ben_piston_2.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 52.0001
+        },
+        "TriggerDistance": 29.5001
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 56.5001
+        },
+        "TriggerDistance": 30.2856979
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.8,
+          "z": 56.79
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 57.5
+        },
+        "TriggerDistance": 31.2855988
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.8,
+          "z": 58.29
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 58.5
+        },
+        "TriggerDistance": 32.5001
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 59.5
+        },
+        "TriggerDistance": 33.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.8,
+          "z": 59.79
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 60.0
+        }
+      },
+      {
+        "AssetGUID": "ben1_under_stoneSlab06.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 60.0
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 60.5
+        },
+        "TriggerDistance": 34.5001
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.8,
+          "z": 61.29
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 61.5
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 61.5001
+        },
+        "TriggerDistance": 35.5002
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 62.5001
+        },
+        "TriggerDistance": 36.5002
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 2.8,
+          "z": 62.79
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 63.0
+        }
+      },
+      {
+        "AssetGUID": "ben_piston_3.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 63.5001
+        },
+        "TriggerDistance": 37.5002
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 64.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrick.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 66.0
+        }
+      }
+    ],
+    "Sucessors": [],
+    "Gaps": [
+      [],
+      [],
+      []
+    ]
+  }
+}

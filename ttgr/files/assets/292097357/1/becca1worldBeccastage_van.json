@@ -1,0 +1,21 @@
+{
+  "name": "VanStage",
+  "speed": 16.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 40,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Becca1_16_VAN1",
+    "Becca1_16_VAN2",
+    "Becca1_16_VAN3",
+    "Becca1_16_VAN4",
+    "Becca1_16_VAN5"
+  ],
+  "LevelBlockItems": [
+    "Becca1_16_VAN1",
+    "Becca1_16_VAN2",
+    "Becca1_16_VAN3",
+    "Becca1_16_VAN4",
+    "Becca1_16_VAN5"
+  ]
+}

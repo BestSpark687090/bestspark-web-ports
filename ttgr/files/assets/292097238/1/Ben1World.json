@@ -1,0 +1,16 @@
+{
+  "name": "ben1world",
+  "stages": [
+    "Ben1_tunnel_small",
+    "Ben1_stage_van",
+    "Ben1_stage14",
+    "Ben1_stage18",
+    "Ben1_stage24",
+    "Ben1_checkpoint_stage_14",
+    "Ben1_checkpoint_stage_18",
+    "Ben1_checkpoint_stage_24",
+    "Ben1_tunnel_big_14",
+    "Ben1_tunnel_big_18",
+    "Ben1_tunnel_big_24"
+  ]
+}

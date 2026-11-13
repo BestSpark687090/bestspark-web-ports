@@ -1,0 +1,19 @@
+{
+  "name": "WorldStage",
+  "speed": 16.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 30,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Becca1_TunnelBig_01",
+    "Becca1_TunnelBig_02",
+    "Becca1_TunnelBig_03",
+    "Becca1_TunnelBig_04"
+  ],
+  "LevelBlockItems": [
+    "Becca1_TunnelBig_01",
+    "Becca1_TunnelBig_02",
+    "Becca1_TunnelBig_03",
+    "Becca1_TunnelBig_04"
+  ]
+}

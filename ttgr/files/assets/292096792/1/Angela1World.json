@@ -1,0 +1,16 @@
+{
+  "name": "angela1world",
+  "stages": [
+    "Angela1_tunnel_small",
+    "Angela1_stage_van",
+    "Angela1_stage12",
+    "Angela1_stage16",
+    "Angela1_stage24",
+    "Angela1_checkpoint_stage_12",
+    "Angela1_checkpoint_stage_16",
+    "Angela1_checkpoint_stage_24",
+    "Angela1_tunnel_big_12",
+    "Angela1_tunnel_big_16",
+    "Angela1_tunnel_big_24"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ginger2world",
+  "stages": [
+    "Ginger2_tunnel_small",
+    "Ginger2_stage_van",
+    "Ginger2_stage16",
+    "Ginger2_stage16",
+    "Ginger2_stage24",
+    "Ginger2_checkpoint_stage_16",
+    "Ginger2_checkpoint_stage_16",
+    "Ginger2_checkpoint_stage_24",
+    "Ginger2_tunnel_big_16",
+    "Ginger2_tunnel_big_16",
+    "Ginger2_tunnel_big_24"
+  ]
+}

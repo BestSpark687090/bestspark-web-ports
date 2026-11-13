@@ -1,0 +1,107 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Angela1_CitySet03_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "angela1_over_flowerbed01.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 6.31
+        }
+      },
+      {
+        "AssetGUID": "Angela1_CitySet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.000001
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 13.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 15.0
+        }
+      },
+      {
+        "AssetGUID": "angela1_overUnder_flowerbed02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 15.5
+        }
+      },
+      {
+        "AssetGUID": "Angela1_CitySet03_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 20.0
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 21.5
+        }
+      },
+      {
+        "AssetGUID": "Pickup_GoldBrickVan.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 23.0
+        }
+      },
+      {
+        "AssetGUID": "RunnerTrigger.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 29.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

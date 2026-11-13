@@ -1,0 +1,13 @@
+{
+  "name": "WorldStage",
+  "speed": 12.0,
+  "NumberOfLevels": 1,
+  "LevelBlockLength": 60,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Hank1_checkpoint_12"
+  ],
+  "LevelBlockItems": [
+    "Hank1_checkpoint_12"
+  ]
+}

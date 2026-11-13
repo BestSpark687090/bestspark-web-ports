@@ -1,0 +1,107 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "city_over_concreteBlock.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet02_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "city_over_concreteBlock.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "AmericanFootball_Ball.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 1.5,
+          "z": 0.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.0
+        }
+      },
+      {
+        "AssetGUID": "AmericanFootball_Goal.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 18.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_truckTrailor02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 31.5
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 37.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "AmericanFootball_Ball.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.25,
+          "z": 44.5
+        }
+      },
+      {
+        "AssetGUID": "city_staticSingle_flowerPot.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 49.5
+        }
+      },
+      {
+        "AssetGUID": "AmericanFootball_Goal.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 64.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

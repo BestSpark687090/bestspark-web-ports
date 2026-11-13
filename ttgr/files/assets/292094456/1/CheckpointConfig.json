@@ -1,0 +1,45 @@
+{
+  "CheckpointPositions": [
+    5,
+    19,
+    35,
+    65,
+    105
+  ],
+  "PreTutorialSpawnPosition": 5,
+  "RepeatableSpawnPosition": 50,
+  "checkpointRewards": [
+    {
+      "Probability": 15.0,
+      "Value": 100
+    },
+    {
+      "Probability": 25.0,
+      "Value": 150
+    },
+    {
+      "Probability": 15.0,
+      "Value": 200
+    },
+    {
+      "Probability": 30.0,
+      "Value": 1,
+      "Reward": "Vault"
+    },
+    {
+      "Probability": 10.0,
+      "Value": 1,
+      "Reward": "Dynamite"
+    },
+    {
+      "Probability": 4.0,
+      "Value": 2,
+      "Reward": "Dynamite"
+    },
+    {
+      "Probability": 1.0,
+      "Value": 3,
+      "Reward": "Dynamite"
+    }
+  ]
+}

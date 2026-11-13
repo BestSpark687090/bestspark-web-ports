@@ -1,0 +1,45 @@
+{
+  "name": "WorldStage",
+  "speed": 16.0,
+  "NumberOfLevels": 9,
+  "LevelBlockLength": 80,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Ginger2_16_001",
+    "Ginger2_16_002",
+    "Ginger2_16_003",
+    "Ginger2_16_004",
+    "Ginger2_16_005",
+    "Ginger2_16_006",
+    "Ginger2_16_007",
+    "Ginger2_16_008",
+    "Ginger2_16_009",
+    "Ginger2_16_010",
+    "Ginger2_16_011",
+    "Ginger2_16_012",
+    "Ginger2_16_013",
+    "Ginger2_16_014"
+  ],
+  "LevelBlockItems": [
+    "Ginger2_16_001",
+    "Ginger2_16_002",
+    "Ginger2_16_003",
+    "Ginger2_16_004",
+    "Ginger2_16_005",
+    "Ginger2_16_006",
+    "Ginger2_16_007",
+    "Ginger2_16_008",
+    "Ginger2_16_009",
+    "Ginger2_16_010",
+    "Ginger2_16_011",
+    "Ginger2_16_012",
+    "Ginger2_16_013",
+    "Ginger2_16_014"
+  ],
+  "SuccessorsLevelBlockItems": [
+    "Ginger2_16_091_SEQ",
+    "Ginger2_16_092_SEQ",
+    "Ginger2_16_101_SEQ",
+    "Ginger2_16_102_SEQ"
+  ]
+}

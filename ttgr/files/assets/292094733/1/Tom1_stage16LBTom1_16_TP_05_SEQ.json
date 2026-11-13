@@ -1,0 +1,123 @@
+{
+  "TestMode": true,
+  "NumRepeats": 1,
+  "RandomWeight": 10,
+  "Weight": 10.0,
+  "ItemValue": {
+    "Placeables2": [
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "city_over_concreteBlock.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "AssetGUID": "city_double8_bus02.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 3.0
+        }
+      },
+      {
+        "AssetGUID": "Ball_TargetKicking.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.25,
+          "z": 5.7
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.0
+        }
+      },
+      {
+        "AssetGUID": "BallTargetKicking_low.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 25.0
+        }
+      },
+      {
+        "AssetGUID": "city_overUnder_roadworks.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 26.5
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_10.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 40.0
+        }
+      },
+      {
+        "AssetGUID": "city_double4_truck02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 43.0
+        }
+      },
+      {
+        "AssetGUID": "city_double4_truck01.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.0,
+          "z": 43.0
+        }
+      },
+      {
+        "AssetGUID": "Tom1_AmericanFootballSet01_30.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 50.0
+        }
+      },
+      {
+        "AssetGUID": "city_single2_car02.prefab",
+        "Position": {
+          "x": -1.25,
+          "y": 0.0,
+          "z": 52.0
+        }
+      },
+      {
+        "AssetGUID": "Ball_TargetKicking.prefab",
+        "Position": {
+          "x": 1.25,
+          "y": 0.25,
+          "z": 54.5
+        }
+      },
+      {
+        "AssetGUID": "BallTargetKicking_high.prefab",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 73.0
+        }
+      }
+    ],
+    "Sucessors": []
+  }
+}

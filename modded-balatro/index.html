@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Balatro (Modded)</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+    canvas { display: block; outline: none; }
+    #canvas { visibility: hidden; aspect-ratio: 16 / 9; width: min(100vw, calc(100vh * 16 / 9)); height: auto; }
+    #status { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+              color: #fff; font: 20px system-ui, sans-serif; pointer-events: none; }
+
+    /* Mod manager */
+    :root { --bg: #14161c; --panel: #1d2029; --row: #252935; --text: #eceef3; --muted: #9aa1b2;
+            --accent: #3b82f6; --ok: #4ade80; --warn: #fbbf24; --error: #f87171; --line: #333847; }
+    #manager { position: fixed; inset: 0; z-index: 10; background: var(--bg); color: var(--text);
+               font: 15px/1.4 system-ui, sans-serif; display: flex; justify-content: center; overflow-y: auto; }
+    #manager[hidden] { display: none; }
+    #manager.dragging { outline: 3px dashed var(--accent); outline-offset: -12px; }
+    #manager .panel { width: min(720px, 100%); padding: 32px 16px 48px; box-sizing: border-box; }
+    #manager h1 { margin: 0 0 4px; font-size: 26px; }
+    #manager .sub { margin: 0 0 20px; color: var(--muted); }
+    #manager .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    #manager .btn { display: inline-flex; align-items: center; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line);
+                    background: var(--panel); color: var(--text); font: inherit; cursor: pointer; }
+    #manager .btn:hover { border-color: var(--accent); }
+    #manager .btn input { display: none; }
+    #manager .play { margin-left: auto; background: var(--accent); border-color: var(--accent); font-weight: 600; }
+    #manager-message { min-height: 1.4em; margin: 0 0 12px; color: var(--muted); }
+    #manager-message.ok { color: var(--ok); }
+    #manager-message.error { color: var(--error); }
+    #manager-warning { margin: 0 0 12px; padding: 10px 12px; border-radius: 8px; background: #3a2e12; color: var(--warn); }
+    #manager-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+    #manager .mod { display: flex; align-items: center; gap: 14px; padding: 10px 12px; border-radius: 8px; background: var(--row); }
+    #manager .mod.off .info { opacity: 0.5; }
+    #manager .info { flex: 1; min-width: 0; }
+    #manager .name { font-weight: 600; overflow-wrap: anywhere; }
+    #manager .meta { color: var(--muted); font-size: 13px; }
+    #manager .note { color: var(--warn); font-size: 13px; }
+    #manager .remove { padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line); background: transparent;
+                       color: var(--error); font: inherit; font-size: 13px; cursor: pointer; }
+    #manager .toggle { position: relative; width: 40px; height: 22px; flex: none; cursor: pointer; }
+    #manager .toggle input { position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+    #manager .track { position: absolute; inset: 0; border-radius: 11px; background: var(--line); transition: background .15s; pointer-events: none; }
+    #manager .track::after { content: ''; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%;
+                             background: #fff; transition: transform .15s; }
+    #manager .toggle input:checked + .track { background: var(--ok); }
+    #manager .toggle input:checked + .track::after { transform: translateX(18px); }
+    #manager .toggle input:focus-visible + .track { outline: 2px solid var(--accent); outline-offset: 2px; }
+    #manager .hint { margin-top: 16px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div id="wrap"><canvas id="canvas" tabindex="0" oncontextmenu="event.preventDefault()"></canvas></div>
+  <div id="status">Downloading…</div>
+  <div id="manager" hidden>
+    <div class="panel">
+      <h1>Modded Balatro Mod Manager</h1>
+      <p class="sub">Add, enable or disable mods, then press Play.<br>
+      <b>Game Recommendation: Unlock everything in the profile menu before you start. It helps.</b></p>
+      <p class="hint">You can also drop .zip files or mod folders anywhere on this page. Added mods are stored in this browser.
+        Mods can also be toggled in-game from Steamodded's Mods menu.</p>
+      <!-- <br> -->
+      <p>balala.</p>
+      <div class="actions">
+        <label class="btn">Add .zip<input id="add-zip" type="file" accept=".zip" multiple></label>
+        <label class="btn">Add folder<input id="add-folder" type="file" webkitdirectory multiple></label>
+        <button id="manager-play" class="btn play">Play Balala</button>
+      </div>
+      <p id="manager-message" role="status"></p>
+      <ul id="manager-list"></ul>
+      <p class="hint">Yes... it's vibecoded. Sorry!<br>
+      Also, pressing Quit brings up an easter egg. Try it multiple times!</p>
+    </div>
+  </div>
+  <script>
+    // Browsers start audio suspended until a user gesture; track every AudioContext and resume them on input.
+    (function () {
+      var contexts = [];
+      ['AudioContext', 'webkitAudioContext'].forEach(function (name) {
+        var Orig = window[name];
+        if (!Orig) return;
+        window[name] = function (opts) { var ctx = new Orig(opts); contexts.push(ctx); return ctx; };
+        window[name].prototype = Orig.prototype;
+      });
+      function resumeAll() { contexts.forEach(function (c) { if (c.state === 'suspended') c.resume(); }); }
+      ['pointerdown', 'keydown', 'touchend'].forEach(function (ev) { window.addEventListener(ev, resumeAll, true); });
+    })();
+    var statusEl = document.getElementById('status');
+    var canvas = document.getElementById('canvas');
+    window.addEventListener('keydown', function (e) {
+      if ([37, 38, 39, 40].indexOf(e.keyCode) > -1) e.preventDefault();
+    });
+    window.addEventListener('click', function () { canvas.focus(); });
+    canvas.addEventListener('webglcontextlost', function (e) {
+      alert('WebGL context lost. Please reload the page.'); e.preventDefault();
+    });
+    var Module = {
+      arguments: ['./game.love'],
+      INITIAL_MEMORY: 268435456,
+      printErr: console.error.bind(console),
+      canvas: canvas,
+      setStatus: function (text) {
+        if (text) { statusEl.textContent = text; }
+        else if (Module.remainingDependencies === 0) {
+          statusEl.style.display = 'none';
+          canvas.style.visibility = 'visible';
+          canvas.focus();
+        }
+      },
+      totalDependencies: 0,
+      remainingDependencies: 0,
+      monitorRunDependencies: function (left) {
+        this.remainingDependencies = left;
+        this.totalDependencies = Math.max(this.totalDependencies, left);
+        Module.setStatus(left ? 'Loading… (' + (this.totalDependencies - left) + '/' + this.totalDependencies + ')' : '');
+      }
+    };
+    window.onerror = function () { statusEl.style.display = 'flex'; statusEl.textContent = 'Error... see the browser console?'; setTimeout(()=>{statusEl.textContent = ""},3000) };
+  </script>
+  <script type="module">
+    import { boot } from './boot.js';
+    import { runManager } from './manager.js';
+    runManager().then(function (opts) { return boot(Module, opts); })
+      .catch(function (e) { console.error(e); statusEl.style.display = 'flex'; statusEl.textContent = 'Failed to start: ' + e.message; });
+  </script>
+</body>
+</html>

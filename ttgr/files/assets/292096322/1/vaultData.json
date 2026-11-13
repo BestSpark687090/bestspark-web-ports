@@ -1,0 +1,490 @@
+{
+    "vaults": [
+        {
+            "vault": "gold",
+            "rewardamount": 3,
+            "rewards": [
+                {
+                    "currencytype": 0,
+                    "chance": 100,
+                    "rewardchances": [
+                        {
+                            "amount": 400,
+                            "chance": 35
+                        },
+                        {
+                            "amount": 450,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 500,
+                            "chance": 10
+                        },
+                        {
+                            "amount": 700,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 1000,
+                            "chance": 1
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 1,
+                    "chance": 16.40,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 60
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 12,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 2,
+                    "chance": 20.90,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 60
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 80
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 12,
+                            "chance": 5
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 3,
+                    "chance": 20.90,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 60
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 80
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 12,
+                            "chance": 5
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 4,
+                    "chance": 20.90,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 60
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 80
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 12,
+                            "chance": 5
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 5,
+                    "chance": 20.90,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 60
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 80
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 12,
+                            "chance": 5
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vault": "steel",
+            "rewardamount": 3,
+            "rewards": [
+                {
+                    "currencytype": 0,
+                    "chance": 7.39,
+                    "rewardchances": [
+                        {
+                            "amount": 250,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 300,
+                            "chance": 30
+                        },
+                        {
+                            "amount": 350,
+                            "chance": 10
+                        },
+                        {
+                            "amount": 400,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 500,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 1,
+                    "chance": 24.43,
+                    "rewardchances": [
+                        {
+                            "amount": 20,
+                            "chance": 80
+                        },
+                        {
+                            "amount": 30,
+                            "chance": 100
+                        },
+                        {
+                            "amount": 40,
+                            "chance": 30
+                        },
+                        {
+                            "amount": 50,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 60,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 2,
+                    "chance": 17.05,
+                    "rewardchances": [
+                        {
+                            "amount": 14,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 40,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 60,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 80,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 3,
+                    "chance": 17.05,
+                    "rewardchances": [
+                        {
+                            "amount": 14,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 40,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 60,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 80,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 4,
+                    "chance": 17.05,
+                    "rewardchances": [
+                        {
+                            "amount": 14,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 40,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 60,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 80,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 5,
+                    "chance": 17.05,
+                    "rewardchances": [
+                        {
+                            "amount": 14,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 40,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 60,
+                            "chance": 3
+                        },
+                        {
+                            "amount": 80,
+                            "chance": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vault": "diamond",
+            "rewardamount": 5,
+            "rewards": [
+                {
+                    "currencytype": 0,
+                    "chance": 16.96,
+                    "rewardchances": [
+                        {
+                            "amount": 500,
+                            "chance": 35
+                        },
+                        {
+                            "amount": 600,
+                            "chance": 45
+                        },
+                        {
+                            "amount": 700,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 800,
+                            "chance": 5
+                        },
+                        {
+                            "amount": 1000,
+                            "chance": 2
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 1,
+                    "chance": 100,
+                    "rewardchances": [
+                        {
+                            "amount": 80,
+                            "chance": 25
+                        },
+                        {
+                            "amount": 100,
+                            "chance": 50
+                        },
+                        {
+                            "amount": 120,
+                            "chance": 35
+                        },
+                        {
+                            "amount": 150,
+                            "chance": 18
+                        },
+                        {
+                            "amount": 200,
+                            "chance": 5
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 2,
+                    "chance": 16.96,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 40
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 8
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 4
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 3,
+                    "chance": 16.96,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 40
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 8
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 4
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 4,
+                    "chance": 16.96,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 40
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 8
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 4
+                        }
+                    ]
+                },
+                {
+                    "currencytype": 5,
+                    "chance": 16.96,
+                    "rewardchances": [
+                        {
+                            "amount": 5,
+                            "chance": 70
+                        },
+                        {
+                            "amount": 7,
+                            "chance": 40
+                        },
+                        {
+                            "amount": 10,
+                            "chance": 20
+                        },
+                        {
+                            "amount": 15,
+                            "chance": 8
+                        },
+                        {
+                            "amount": 20,
+                            "chance": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

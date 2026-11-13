@@ -1,0 +1,27 @@
+{
+  "name": "tom1world",
+  "stages": [
+    "Tom1_tunnel_small",
+    "Tom1_tutorial",
+    "Tom1_stage_van",
+    "Tom1_stage12",
+    "Tom1_stage14",
+    "Tom1_stage16",
+    "Tom1_stage18",
+    "Tom1_stage20",
+    "Tom1_stage22",
+    "Tom1_stage24",
+    "Tom1_checkpoint_stage_12",
+    "Tom1_checkpoint_stage_14",
+    "Tom1_checkpoint_stage_16",
+    "Tom1_checkpoint_stage_18",
+    "Tom1_checkpoint_stage_20",
+    "Tom1_checkpoint_stage_22",
+    "Tom1_checkpoint_stage_24",
+    "Tom1_stage12_Predetermined",
+    "Tom1_stage14_Predetermined",
+    "Tom1_stage16_Predetermined",
+    "Tom1_stage18_Predetermined",
+    "JetPack_stage"
+  ]
+}

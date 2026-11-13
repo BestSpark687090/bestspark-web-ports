@@ -1,0 +1,706 @@
+{
+  "name": "tom1world",
+  "stages": {
+    "Tom1_tutorial": {
+      "name": "TutorialStages",
+      "speed": 12,
+      "NumberOfLevels": 2,
+      "LevelBlockLength": 60,
+      "SelectionMode": 0,
+      "SelectionItems": [
+        "Tom1_Tutorial_01",
+        "Tom1_Tutorial_02"
+      ],
+      "LevelBlockItems": [
+        "Tom1_Tutorial_01",
+        "Tom1_Tutorial_02"
+      ]
+    },
+    "Tom1_stage_van": {
+      "name": "VanStage",
+      "speed": 12,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 30,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_VanSegment_03",
+        "Tom1_VanSegment_05",
+        "Tom1_VanSegment_02",
+        "Tom1_VanSegment_04",
+        "Tom1_VanSegment_01",
+        "Tom1_VanSegment_06"
+      ],
+      "LevelBlockItems": [
+        "Tom1_VanSegment_03",
+        "Tom1_VanSegment_05",
+        "Tom1_VanSegment_02",
+        "Tom1_VanSegment_04",
+        "Tom1_VanSegment_01",
+        "Tom1_VanSegment_06"
+      ]
+    },
+    "Tom1_stage12": {
+      "name": "WorldStage",
+      "speed": 12,
+      "NumberOfLevels": 5,
+      "LevelBlockLength": 60,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_12_001",
+        "Tom1_12_002",
+        "Tom1_12_003",
+        "Tom1_12_004",
+        "Tom1_12_005",
+        "Tom1_12_006",
+        "Tom1_12_007",
+        "Tom1_12_008",
+        "Tom1_12_009",
+        "Tom1_12_010",
+        "Tom1_12_011",
+        "Tom1_12_012",
+        "Tom1_12_013",
+        "Tom1_12_014",
+        "Tom1_12_015",
+        "Tom1_12_016",
+        "Tom1_12_017",
+        "Tom1_12_018",
+        "Tom1_12_019",
+        "Tom1_12_020",
+        "Tom1_12_021"
+      ],
+      "LevelBlockItems": [
+        "Tom1_12_001",
+        "Tom1_12_002",
+        "Tom1_12_003",
+        "Tom1_12_004",
+        "Tom1_12_005",
+        "Tom1_12_006",
+        "Tom1_12_007",
+        "Tom1_12_008",
+        "Tom1_12_009",
+        "Tom1_12_010",
+        "Tom1_12_011",
+        "Tom1_12_012",
+        "Tom1_12_013",
+        "Tom1_12_014",
+        "Tom1_12_015",
+        "Tom1_12_016",
+        "Tom1_12_017",
+        "Tom1_12_018",
+        "Tom1_12_019",
+        "Tom1_12_020",
+        "Tom1_12_021"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_12_TR_01",
+        "Tom1_12_TR_03",
+        "Tom1_12_TR_04",
+        "Tom1_12_TR_02"
+      ],
+      "SuccessorsLevelBlockItems": [
+        "Tom1_12_191_SEQ",
+        "Tom1_12_192_SEQ",
+        "Tom1_12_201_SEQ",
+        "Tom1_12_202_SEQ",
+        "Tom1_12_211_SEQ",
+        "Tom1_12_212_SEQ",
+        "Tom1_12_191_E_SEQ",
+        "Tom1_12_192_E_SEQ",
+        "Tom1_12_201_E_SEQ",
+        "Tom1_12_202_E_SEQ",
+        "Tom1_12_211_E_SEQ",
+        "Tom1_12_212_E_SEQ",
+        "Tom1_12_191_H_SEQ",
+        "Tom1_12_192_H_SEQ"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_12_CTR_01"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_12_BTR_01"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_12_MTR_01"
+      ]
+    },
+    "Tom1_stage14": {
+      "name": "WorldStage",
+      "speed": 14,
+      "NumberOfLevels": 5,
+      "LevelBlockLength": 70,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_14_001",
+        "Tom1_14_002",
+        "Tom1_14_003",
+        "Tom1_14_004",
+        "Tom1_14_005",
+        "Tom1_14_006",
+        "Tom1_14_007",
+        "Tom1_14_008",
+        "Tom1_14_009",
+        "Tom1_14_010",
+        "Tom1_14_011",
+        "Tom1_14_012",
+        "Tom1_14_013",
+        "Tom1_14_014",
+        "Tom1_14_015"
+      ],
+      "LevelBlockItems": [
+        "Tom1_14_001",
+        "Tom1_14_002",
+        "Tom1_14_003",
+        "Tom1_14_004",
+        "Tom1_14_005",
+        "Tom1_14_006",
+        "Tom1_14_007",
+        "Tom1_14_008",
+        "Tom1_14_009",
+        "Tom1_14_010",
+        "Tom1_14_011",
+        "Tom1_14_012",
+        "Tom1_14_013",
+        "Tom1_14_014",
+        "Tom1_14_015"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_14_TR_01",
+        "Tom1_14_TR_02",
+        "Tom1_14_TR_03",
+        "Tom1_14_TR_04",
+        "Tom1_14_TR_05",
+        "Tom1_14_TR_06"
+      ],
+      "SuccessorsLevelBlockItems": [
+        "Tom1_14_091_SEQ",
+        "Tom1_14_092_SEQ",
+        "Tom1_14_141_SEQ",
+        "Tom1_14_142_SEQ",
+        "Tom1_14_151_SEQ",
+        "Tom1_14_152_SEQ",
+        "Tom1_14_TP_041_SEQ",
+        "Tom1_14_TP_051_SEQ",
+        "Tom1_14_AF_041_SEQ",
+        "Tom1_14_AF_051_SEQ",
+        "Tom1_14_RO_041_SEQ",
+        "Tom1_14_RO_051_SEQ"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_14_CTR_01"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_14_BTR_01",
+        "Tom1_14_BTR_02",
+        "Tom1_14_BTR_03"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_14_MTR_01"
+      ]
+    },
+    "Tom1_stage16": {
+      "name": "WorldStage",
+      "speed": 16,
+      "NumberOfLevels": 6,
+      "LevelBlockLength": 80,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_16_001",
+        "Tom1_16_002",
+        "Tom1_16_003",
+        "Tom1_16_004",
+        "Tom1_16_005",
+        "Tom1_16_006",
+        "Tom1_16_007",
+        "Tom1_16_008",
+        "Tom1_16_009",
+        "Tom1_16_010",
+        "Tom1_16_011",
+        "Tom1_16_012",
+        "Tom1_16_013",
+        "Tom1_16_014",
+        "Tom1_16_015"
+      ],
+      "LevelBlockItems": [
+        "Tom1_16_001",
+        "Tom1_16_002",
+        "Tom1_16_003",
+        "Tom1_16_004",
+        "Tom1_16_005",
+        "Tom1_16_006",
+        "Tom1_16_007",
+        "Tom1_16_008",
+        "Tom1_16_009",
+        "Tom1_16_010",
+        "Tom1_16_011",
+        "Tom1_16_012",
+        "Tom1_16_013",
+        "Tom1_16_014",
+        "Tom1_16_015"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_16_TR_01",
+        "Tom1_16_TR_02",
+        "Tom1_16_TR_03",
+        "Tom1_16_TR_04",
+        "Tom1_16_TR_05"
+      ],
+      "SuccessorsLevelBlockItems": [
+        "Tom1_16_071_SEQ",
+        "Tom1_16_072_SEQ",
+        "Tom1_16_131_SEQ",
+        "Tom1_16_132_SEQ",
+        "Tom1_16_141_SEQ",
+        "Tom1_16_142_SEQ",
+        "Tom1_16_151_SEQ",
+        "Tom1_16_152_SEQ",
+        "Tom1_16_TP_04_SEQ",
+        "Tom1_16_TP_05_SEQ",
+        "Tom1_16_AF_04_SEQ",
+        "Tom1_16_AF_05_SEQ",
+        "Tom1_16_RO_04_SEQ",
+        "Tom1_16_RO_05_SEQ"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_16_TR_Chase01",
+        "Tom1_16_CTR_02",
+        "Tom1_16_CTR_03",
+        "Tom1_16_CTR_04",
+        "Tom1_16_CTR_05"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_16_BTR_01",
+        "Tom1_16_BTR_02",
+        "Tom1_16_BTR_03"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_16_MTR_01"
+      ]
+    },
+    "Tom1_stage18": {
+      "name": "WorldStage",
+      "speed": 18,
+      "NumberOfLevels": 6,
+      "LevelBlockLength": 90,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_18_001",
+        "Tom1_18_002",
+        "Tom1_18_003",
+        "Tom1_18_004",
+        "Tom1_18_005",
+        "Tom1_18_006",
+        "Tom1_18_007",
+        "Tom1_18_008",
+        "Tom1_18_009",
+        "Tom1_18_010",
+        "Tom1_18_011",
+        "Tom1_18_012",
+        "Tom1_18_013",
+        "Tom1_18_014"
+      ],
+      "LevelBlockItems": [
+        "Tom1_18_001",
+        "Tom1_18_002",
+        "Tom1_18_003",
+        "Tom1_18_004",
+        "Tom1_18_005",
+        "Tom1_18_006",
+        "Tom1_18_007",
+        "Tom1_18_008",
+        "Tom1_18_009",
+        "Tom1_18_010",
+        "Tom1_18_011",
+        "Tom1_18_012",
+        "Tom1_18_013",
+        "Tom1_18_014"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_18_TR_01",
+        "Tom1_18_TR_02",
+        "Tom1_18_TR_04",
+        "Tom1_18_TR_05",
+        "Tom1_18_TR_03"
+      ],
+      "SuccessorsLevelBlockItems": [
+        "Tom1_18_051_SEQ",
+        "Tom1_18_052_SEQ",
+        "Tom1_18_131_SEQ",
+        "Tom1_18_132_SEQ",
+        "Tom1_18_13a_SEQ",
+        "Tom1_18_13b_SEQ"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_18_CTR_01",
+        "Tom1_18_CTR_02",
+        "Tom1_18_CTR_03"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_18_BTR_01"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_18_MTR_01"
+      ]
+    },
+    "Tom1_stage20": {
+      "name": "WorldStage",
+      "speed": 20,
+      "NumberOfLevels": 6,
+      "LevelBlockLength": 100,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_20_001",
+        "Tom1_20_002",
+        "Tom1_20_003",
+        "Tom1_20_004",
+        "Tom1_20_005",
+        "Tom1_20_006",
+        "Tom1_20_007",
+        "Tom1_20_008",
+        "Tom1_20_009",
+        "Tom1_20_010",
+        "Tom1_20_011",
+        "Tom1_20_012",
+        "Tom1_20_013"
+      ],
+      "LevelBlockItems": [
+        "Tom1_20_001",
+        "Tom1_20_002",
+        "Tom1_20_003",
+        "Tom1_20_004",
+        "Tom1_20_005",
+        "Tom1_20_006",
+        "Tom1_20_007",
+        "Tom1_20_008",
+        "Tom1_20_009",
+        "Tom1_20_010",
+        "Tom1_20_011",
+        "Tom1_20_012",
+        "Tom1_20_013"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_20_TR_01",
+        "Tom1_20_TR_02",
+        "Tom1_20_TR_03",
+        "Tom1_20_TR_04"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_20_CTR_01",
+        "Tom1_20_CTR_02",
+        "Tom1_20_CTR_03"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_20_BTR_01"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_20_MTR_01"
+      ]
+    },
+    "Tom1_stage22": {
+      "name": "WorldStage",
+      "speed": 22,
+      "NumberOfLevels": 6,
+      "LevelBlockLength": 110,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_22_001",
+        "Tom1_22_002",
+        "Tom1_22_003",
+        "Tom1_22_004",
+        "Tom1_22_005",
+        "Tom1_22_006",
+        "Tom1_22_007",
+        "Tom1_22_008",
+        "Tom1_22_009",
+        "Tom1_22_010",
+        "Tom1_22_011",
+        "Tom1_22_012"
+      ],
+      "LevelBlockItems": [
+        "Tom1_22_001",
+        "Tom1_22_002",
+        "Tom1_22_003",
+        "Tom1_22_004",
+        "Tom1_22_005",
+        "Tom1_22_006",
+        "Tom1_22_007",
+        "Tom1_22_008",
+        "Tom1_22_009",
+        "Tom1_22_010",
+        "Tom1_22_011",
+        "Tom1_22_012"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_22_TR_01",
+        "Tom1_22_TR_02",
+        "Tom1_22_TR_03",
+        "Tom1_22_TR_04"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_22_CTR_01",
+        "Tom1_22_CTR_02",
+        "Tom1_22_CTR_03"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_22_BTR_01"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_22_MTR_01"
+      ]
+    },
+    "Tom1_stage24": {
+      "name": "WorldStage",
+      "speed": 24,
+      "NumberOfLevels": 6,
+      "LevelBlockLength": 120,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_24_001",
+        "Tom1_24_002",
+        "Tom1_24_003",
+        "Tom1_24_004",
+        "Tom1_24_005",
+        "Tom1_24_006",
+        "Tom1_24_007",
+        "Tom1_24_008",
+        "Tom1_24_009",
+        "Tom1_24_010",
+        "Tom1_24_011",
+        "Tom1_24_012",
+        "Tom1_24_013",
+        "Tom1_24_014",
+        "Tom1_24_015",
+        "Tom1_24_016",
+        "Tom1_24_017",
+        "Tom1_24_018",
+        "Tom1_24_019",
+        "Tom1_24_020",
+        "Tom1_24_022",
+        "Tom1_24_023",
+        "Tom1_24_024",
+        "Tom1_24_025",
+        "Tom1_24_026",
+        "Tom1_24_021",
+        "Tom1_24_027",
+        "Tom1_24_028",
+        "Tom1_24_029",
+        "Tom1_24_030",
+        "Tom1_24_031",
+        "Tom1_24_032",
+        "Tom1_24_033",
+        "Tom1_24_035",
+        "Tom1_24_034",
+        "Tom1_24_036",
+        "Tom1_24_037",
+        "Tom1_24_038",
+        "Tom1_24_039",
+        "Tom1_24_040"
+      ],
+      "LevelBlockItems": [
+        "Tom1_24_001",
+        "Tom1_24_002",
+        "Tom1_24_003",
+        "Tom1_24_004",
+        "Tom1_24_005",
+        "Tom1_24_006",
+        "Tom1_24_007",
+        "Tom1_24_008",
+        "Tom1_24_009",
+        "Tom1_24_010",
+        "Tom1_24_011",
+        "Tom1_24_012",
+        "Tom1_24_013",
+        "Tom1_24_014",
+        "Tom1_24_015",
+        "Tom1_24_016",
+        "Tom1_24_017",
+        "Tom1_24_018",
+        "Tom1_24_019",
+        "Tom1_24_020",
+        "Tom1_24_022",
+        "Tom1_24_023",
+        "Tom1_24_024",
+        "Tom1_24_025",
+        "Tom1_24_026",
+        "Tom1_24_021",
+        "Tom1_24_027",
+        "Tom1_24_028",
+        "Tom1_24_029",
+        "Tom1_24_030",
+        "Tom1_24_031",
+        "Tom1_24_032",
+        "Tom1_24_033",
+        "Tom1_24_035",
+        "Tom1_24_034",
+        "Tom1_24_036",
+        "Tom1_24_037",
+        "Tom1_24_038",
+        "Tom1_24_039",
+        "Tom1_24_040"
+      ],
+      "TransitionLevelBlockItems": [
+        "Tom1_24_TR_01",
+        "Tom1_24_TR_02",
+        "Tom1_24_TR_03",
+        "Tom1_24_TR_05",
+        "Tom1_24_TR_04",
+        "Tom1_24_TR_06",
+        "Tom1_24_TR_07",
+        "Tom1_24_TR_08"
+      ],
+      "SuccessorsLevelBlockItems": [
+        "Tom1_24_191_SEQ",
+        "Tom1_24_192_SEQ",
+        "Tom1_24_201_SEQ",
+        "Tom1_24_202_SEQ",
+        "Tom1_24_211_SEQ",
+        "Tom1_24_212_SEQ",
+        "Tom1_24_221_SEQ",
+        "Tom1_24_222_SEQ",
+        "Tom1_24_231_SEQ",
+        "Tom1_24_232_SEQ",
+        "Tom1_24_241_SEQ",
+        "Tom1_24_242_SEQ",
+        "Tom1_24_251_SEQ",
+        "Tom1_24_252_SEQ",
+        "Tom1_24_261_SEQ",
+        "Tom1_24_262_SEQ",
+        "Tom1_24_301_SEQ",
+        "Tom1_24_302_SEQ",
+        "Tom1_24_30a_SEQ",
+        "Tom1_24_30b_SEQ",
+        "Tom1_24_401_SEQ",
+        "Tom1_24_402_SEQ"
+      ],
+      "CoonChaseTransitionLevelBlockItems": [
+        "Tom1_24_CTR_01",
+        "Tom1_24_CTR_H_01",
+        "Tom1_24_CTR_02",
+        "Tom1_24_CTR_03",
+        "Tom1_24_CTR_H_02",
+        "Tom1_24_CTR_H_03"
+      ],
+      "BossFightTransitionLevelBlockItems": [
+        "Tom1_24_BTR_01"
+      ],
+      "SpecialWorldsTransitionLevelBlockItems": [
+        "Tom1_24_MTR_01"
+      ]
+    },
+    "Tom1_checkpoint_stage_12": {
+      "name": "WorldStage",
+      "speed": 12,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 60,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_12"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_12"
+      ]
+    },
+    "Tom1_checkpoint_stage_14": {
+      "name": "WorldStage",
+      "speed": 14,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 60,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_14"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_14"
+      ]
+    },
+    "Tom1_checkpoint_stage_16": {
+      "name": "WorldStage",
+      "speed": 16,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 60,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_16"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_16"
+      ]
+    },
+    "Tom1_checkpoint_stage_18": {
+      "name": "WorldStage",
+      "speed": 18,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 80,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_18"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_18"
+      ]
+    },
+    "Tom1_checkpoint_stage_20": {
+      "name": "WorldStage",
+      "speed": 20,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 80,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_20"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_20"
+      ]
+    },
+    "Tom1_checkpoint_stage_22": {
+      "name": "WorldStage",
+      "speed": 22,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 90,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_22"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_22"
+      ]
+    },
+    "Tom1_checkpoint_stage_24": {
+      "name": "WorldStage",
+      "speed": 24,
+      "NumberOfLevels": 1,
+      "LevelBlockLength": 90,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "Tom1_checkpoint_24"
+      ],
+      "LevelBlockItems": [
+        "Tom1_checkpoint_24"
+      ]
+    },
+    "JetPack_stage": {
+      "name": "WorldStage",
+      "speed": 30,
+      "NumberOfLevels": 10,
+      "LevelBlockLength": 150,
+      "SelectionMode": 4,
+      "SelectionItems": [
+        "JetPack_JP_001",
+        "JetPack_JP_001f",
+        "JetPack_JP_002",
+        "JetPack_JP_002f",
+        "JetPack_JP_003",
+        "JetPack_JP_003f",
+        "JetPack_JP_004"
+      ],
+      "LevelBlockItems": [
+        "JetPack_JP_001",
+        "JetPack_JP_001f",
+        "JetPack_JP_002",
+        "JetPack_JP_002f",
+        "JetPack_JP_003",
+        "JetPack_JP_003f",
+        "JetPack_JP_004"
+      ]
+    }
+  }
+}

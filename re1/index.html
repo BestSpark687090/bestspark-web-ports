@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PSX</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; color: #ccc; font-family: sans-serif; overflow: hidden; }
+  #game { width: 100%; height: 100%; }
+  #canvas { display: block; }
+  #menu, #emu-menu { display: none; }
+  #loading { position: absolute; top: 40%; width: 100%; text-align: center; }
+  #startEmu { position: absolute; top: 45%; left: 50%; transform: translateX(-50%); font-size: 20px; }
+  #controls { position: fixed; left: 12px; top: 50%; transform: translateY(-50%); z-index: 10; pointer-events: none;
+              background: rgba(0,0,0,.6); border: 1px solid #333; border-radius: 6px; padding: 8px 12px; font-size: 13px; line-height: 1.6; }
+  #controls b { display: inline-block; min-width: 4.5em; color: #fff; }
+</style>
+</head>
+<body>
+<div id="game"></div>
+<div id="controls">
+  <b>Z</b>Cross<br>
+  <b>X</b>Circle<br>
+  <b>A</b>Square<br>
+  <b>S</b>Triangle<br>
+  <b>Q / W</b>L1 / R1<br>
+  <b>Tab / E</b>L2 / R2<br>
+  <b>Enter</b>Start<br>
+  <b>R-Shift</b>Select<br>
+  <b>Arrows</b>D-pad<br>
+  <b>I J K L</b>Right stick<br>
+  <b>F1</b>Menu
+</div>
+<script>
+  var EJS_player  = '#game';
+  var EJS_core    = 'mednafen_psx';
+  var EJS_gameUrl = './data/re1.chd';
+  var EJS_biosUrl = './data/psx.zip';
+  // Tab is L2: keep the browser from moving focus off the game
+  window.addEventListener('keydown', e => { if (e.key === 'Tab') e.preventDefault(); });
+</script>
+<script src="./data/libretro2.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "levelAmount": 4,
+  "objects": {
+    "Pickup_GoldBrick.prefab": 232,
+    "MissionItemSpawnPoint.prefab": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "worlds": [
+    "Tom1World",
+    "ChaseSideWorld",
+    "BossfightWorld",
+    "RaceWorldShort",
+    "TimeTrialWorld",
+    "SurvivalWorld",
+    "Tom1World_BE_Configurable",
+    "LavaEscapeWorld",
+    "Angela1World",
+    "Hank1World",
+    "Ginger1World",
+    "Ben1World",
+    "Tom2World",
+    "Becca1World",
+    "Hank2World",
+    "Ginger2World",
+    "SkateWorld",
+    "FlyingWorld",
+    "CandyWorld"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "WorldStage",
+  "speed": 16.0,
+  "NumberOfLevels": 7,
+  "LevelBlockLength": 80,
+  "SelectionMode": 4,
+  "SelectionItems": [
+    "Becca1_16_001",
+    "Becca1_16_002",
+    "Becca1_16_003",
+    "Becca1_16_004",
+    "Becca1_16_005",
+    "Becca1_16_006",
+    "Becca1_16_007",
+    "Becca1_16_008",
+    "Becca1_16_009",
+    "Becca1_16_010"
+  ],
+  "LevelBlockItems": [
+    "Becca1_16_001",
+    "Becca1_16_002",
+    "Becca1_16_003",
+    "Becca1_16_004",
+    "Becca1_16_005",
+    "Becca1_16_006",
+    "Becca1_16_007",
+    "Becca1_16_008",
+    "Becca1_16_009",
+    "Becca1_16_010"
+  ],
+  "SuccessorsLevelBlockItems": [
+    "Becca1_16_091_SEQ",
+    "Becca1_16_101_SEQ",
+    "Becca1_16_092_SEQ",
+    "Becca1_16_102_SEQ"
+  ]
+}

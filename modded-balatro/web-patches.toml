@@ -1,0 +1,129 @@
+# Browser-specific game changes, applied by the web Lovely engine after every mod's patches.
+[manifest]
+version = "1.0.0"
+priority = 1000000
+
+# Platform flags for the browser: no quit button or video settings, frequent saves
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = "if love.system.getOS() == 'Windows' then"
+position = "before"
+match_indent = true
+times = 1
+payload = '''
+if love.system.getOS() == 'Web' then
+    self.F_SAVE_TIMER = 5
+    self.F_ENGLISH_ONLY = false
+    self.F_CRASH_REPORTS = false
+    self.F_QUIT_BUTTON = true -- True, because I want to screw around with the quit button.
+    self.F_VIDEO_SETTINGS = false
+end'''
+
+# The canvas is a fixed-size window; never ask SDL for borderless/fullscreen
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = "screenmode = 'Borderless',"
+position = "at"
+match_indent = true
+times = 1
+payload = "screenmode = love.system.getOS() == 'Web' and 'Windowed' or 'Borderless',"
+
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = "G.FUNCS.apply_window_changes = function(_initial)"
+position = "after"
+match_indent = true
+times = 1
+payload = '''
+  if love.system.getOS() == 'Web' then
+    G.SETTINGS.WINDOW.screenmode = 'Windowed'
+    G.SETTINGS.WINDOW.selected_display = 1
+    G.SETTINGS.WINDOW.DISPLAYS[1] = G.SETTINGS.WINDOW.DISPLAYS[1] or {}
+    G.SETTINGS.WINDOW.DISPLAYS[1].screen_res = {w = love.graphics.getWidth(), h = love.graphics.getHeight()}
+    G.SETTINGS.QUEUED_CHANGE = {}
+    if _initial ~= true then love.resize(love.graphics.getWidth(), love.graphics.getHeight()) end
+    return
+  end'''
+
+# The browser reports no fullscreen modes
+[[patches]]
+[patches.pattern]
+target = "functions/misc_functions.lua"
+pattern = "local unscaled_dims = love.window.getFullscreenModes(i)[1]"
+position = "at"
+match_indent = true
+times = 1
+payload = "local unscaled_dims = love.window.getFullscreenModes(i)[1] or {width = render_w, height = render_h}"
+
+# Performance: Steamodded's blind HUD callback runs every frame and re-lays-out the whole blind
+# panel each time (UIBox:recalculate). Interpreted in the browser that was most of a frame's cost
+# during runs. Only recalculate when the panel actually changed.
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/overrides.lua"]'
+pattern = "e.config.padding = padding"
+position = "at"
+match_indent = true
+times = 1
+payload = '''local __web_changed = e.config.padding ~= padding or G.GAME.blind.update_loc_debuff_lines or num_lines ~= #e.children
+e.config.padding = padding'''
+
+[[patches]]
+[patches.pattern]
+target = '=[SMODS _ "src/overrides.lua"]'
+pattern = "e.UIBox:recalculate()"
+position = "at"
+match_indent = true
+times = 1
+payload = "if __web_changed then e.UIBox:recalculate() end"
+
+[[patches]]
+[patches.pattern]
+target = 'functions/UI_definitions.lua'
+pattern = '''
+{n=G.UIT.R, config={align = "tm", padding = 0}, nodes={
+                        {n=G.UIT.C, config={align = "tl", padding = 0.03}, nodes={
+                          {n=G.UIT.R, config={align = "cl", padding = 0}, nodes={
+                            {n=G.UIT.T, config={text = 'william341', scale = text_scale*0.35, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+                          }},
+                        }},
+                      }},
+'''
+position = "after"
+match_indent = true
+times = 1
+payload = '''
+{n=G.UIT.R, config={align = "cm", padding = 0}, nodes={
+                        {n=G.UIT.T, config={text = "Web", scale = text_scale*0.45, colour = G.C.GOLD, shadow = true}},
+                      }},
+                      {n=G.UIT.R, config={align = "tm", padding = 0}, nodes={
+                        {n=G.UIT.C, config={align = "tl", padding = 0.03}, nodes={
+                          {n=G.UIT.R, config={align = "cl", padding = 0}, nodes={
+                            {n=G.UIT.T, config={text = 'BestSpark687090', scale = text_scale*0.35, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+                          }},
+                        }},
+                      }},
+'''
+
+# Web Port Text
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = "G.MAIN_MENU_UI:align_to_major()"
+position = "after"
+match_indent = true
+times = 1
+payload = '''
+--WEB PORT THINGY
+
+UIBox{
+        definition = 
+        {n=G.UIT.ROOT, config={align = "cm", colour = G.C.CLEAR}, nodes={
+            {n=G.UIT.T, config={text = "Web Port by BestSpark687090 - https://bestspark.org", scale = 0.5, colour = G.C.UI.TEXT_LIGHT}}
+        }}, 
+        config = {align="bmi", offset = {x=-1.5,y=0}, major = G.MAIN_MENU_UI, bond = 'Weak'}
+    }
+'''
